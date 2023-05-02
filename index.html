@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Registration</title>
-</head>
-<body>
-    <div class="container">
-        <form>
-            <h3>Registration Page</h3>
-            <input type="email" name="i1" id="i1" placeholder="Insira seu email"  required>
-            <input type="text" name="i1" id="i1" placeholder="Nome de Usuário"  required>
-            <input type="password" name="i1" id="i1" placeholder="Senha" required>
-            <input type="password" name="i1" id="i1" placeholder="Confirme sua Senha" required>
-            <button>Submit</button>
-        </form>
+  </head>
+  <body>
+    <div class="left">
+      <h1>
+        Faça Login <br />
+        E entre para o nosso time
+      </h1>
+      <img src="assets/img/login.svg" alt="loginSVG" height="500px" />
     </div>
-</body>
+    <div class="right">
+      <form action="#">
+        <h1>Login</h1>
+        <div class="input_field">
+          <label for="user">Usuário</label>
+          <input type="text" name="user" placeholder="Usuário" />
+          <label for="password">Senha</label>
+          <input type="password" name="password" placeholder="Senha" />
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </body>
 </html>
