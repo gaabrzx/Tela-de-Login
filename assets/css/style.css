@@ -36,7 +36,7 @@ body .left {
 body .left h1 {
   color: var(--text-color);
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 body .right {
