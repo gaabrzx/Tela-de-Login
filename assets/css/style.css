@@ -111,3 +111,25 @@ body .right form button[type="submit"] {
   align-items: baseline;
   width: 90%;
 }
+
+/* Responsividade */
+@media screen and (max-width: 1200px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+  }
+
+  body .left h1 {
+    display: none;
+    visibility: hidden;
+  }
+
+  body .left {
+    width: 100%;
+  }
+
+  body .right {
+    width: 100%;
+  }
+}
