@@ -132,3 +132,15 @@ body .right form button[type="submit"] {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 900px) {
+  body .left img {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body .left img {
+    height: 200px;
+  }
+}
