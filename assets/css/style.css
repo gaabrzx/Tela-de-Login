@@ -131,11 +131,17 @@ body .right form button[type="submit"] {
   body .right {
     width: 100%;
   }
-}
 
-@media screen and (max-width: 900px) {
+  body .right form {
+    height: 80%;
+  }
+
   body .left img {
-    height: 500px;
+    height: 450px;
+  }
+
+  body .right form h1 {
+    font-size: 24px;
   }
 }
 
