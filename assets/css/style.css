@@ -135,12 +135,24 @@ body .right form button[type="submit"] {
 
 @media screen and (max-width: 900px) {
   body .left img {
-    height: 400px;
+    height: 500px;
   }
 }
 
 @media screen and (max-width: 768px) {
   body .left img {
-    height: 200px;
+    height: 300px;
+  }
+
+  body .right form {
+    height: 90%;
+    width: 90%;
+  }
+  body .right form h1 {
+    font-size: 20px;
+  }
+
+  body .right form label {
+    font-size: 14px;
   }
 }
